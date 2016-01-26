@@ -27,6 +27,7 @@ public:
 	static Timer * instance() { return timer; }
 private:
 	static Timer * timer;
+	long int aux;
 	unsigned long long freq;
 	volatile micro_t ticks;
 };
